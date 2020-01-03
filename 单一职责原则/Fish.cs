@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatternPrinciple.SRP
 {
-    public class AnimalForWater:BaseAnimal
+    public class Fish:BaseAnimal
     {
-
-        public AnimalForWater(string name)
+        public Fish(string name)
             :base(name)
-        {
-
-        }
+        {  }
 
         public override void Breath()
         {

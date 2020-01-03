@@ -45,13 +45,31 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="单一职责原则\Animal.cs" />
-    <Compile Include="单一职责原则\AnimalForWater.cs" />
+    <Compile Include="依赖倒置原则\AbstractPhone.cs" />
+    <Compile Include="依赖倒置原则\DIPDemo.cs" />
+    <Compile Include="依赖倒置原则\Student.cs" />
+    <Compile Include="依赖倒置原则\Telephone\Honor.cs" />
+    <Compile Include="依赖倒置原则\Telephone\IPhone.cs" />
+    <Compile Include="依赖倒置原则\Telephone\MI.cs" />
+    <Compile Include="单一职责原则\Chicken.cs" />
+    <Compile Include="单一职责原则\Fish.cs" />
     <Compile Include="单一职责原则\BaseAnimal.cs" />
     <Compile Include="单一职责原则\SRPDemo.cs" />
+    <Compile Include="接口隔离原则\ISPDemo.cs" />
+    <Compile Include="里氏替换原则\Cat.cs" />
+    <Compile Include="里氏替换原则\Test\Child.cs" />
+    <Compile Include="里氏替换原则\Chinese.cs" />
+    <Compile Include="里氏替换原则\Japnese.cs" />
+    <Compile Include="里氏替换原则\LSPDemo.cs" />
+    <Compile Include="里氏替换原则\Test\Parent.cs" />
+    <Compile Include="里氏替换原则\People.cs" />
+    <Compile Include="里氏替换原则\Test\Poly.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="迪米特法则\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

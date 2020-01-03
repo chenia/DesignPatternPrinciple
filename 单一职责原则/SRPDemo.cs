@@ -10,15 +10,12 @@ namespace DesignPatternPrinciple.SRP
     {
         public static void Show()
         {
-            Animal chicken = new Animal("chicken");
+            BaseAnimal chicken = new Chicken("chicken");
             chicken.Breath();
 
-            BaseAnimal fish = new AnimalForWater("fish");
+
+            BaseAnimal fish = new Fish("fish");
             fish.Breath();
-
-            AnimalForWater shake = new AnimalForWater("shake");
-            shake.Breath();
-
 
         }
     }
