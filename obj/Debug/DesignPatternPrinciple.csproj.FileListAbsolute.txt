@@ -1,6 +1,0 @@
-F:\C#Pros\MyProject\DesignPatternPrinciple\bin\Debug\DesignPatternPrinciple.exe.config
-F:\C#Pros\MyProject\DesignPatternPrinciple\bin\Debug\DesignPatternPrinciple.exe
-F:\C#Pros\MyProject\DesignPatternPrinciple\bin\Debug\DesignPatternPrinciple.pdb
-F:\C#Pros\MyProject\DesignPatternPrinciple\obj\Debug\DesignPatternPrinciple.csproj.CoreCompileInputs.cache
-F:\C#Pros\MyProject\DesignPatternPrinciple\obj\Debug\DesignPatternPrinciple.exe
-F:\C#Pros\MyProject\DesignPatternPrinciple\obj\Debug\DesignPatternPrinciple.pdb
